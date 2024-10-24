@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍔 La Brasa Hamburguer</title>
+    <link rel="icon" href="img/hamburguer-icon.png" type="image/png"> <!-- Ícone de hambúrguer -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <style>
+        /* Define fundo preto para o corpo da página */
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco para contraste */
+        }
+        /* Alterar cores da seção de texto */
+        h2, p {
+            color: #fff; /* Texto em branco */
+        }
+        .navbar-brand {
+            color: #ffbf00 !important; /* Cor amarela para o nome da marca */
+        }
+        .carousel-item img {
+            opacity: 0.8; /* Um leve efeito transparente nas imagens do carrossel */
+        }
+        /* Estilo do carrossel */
+        .carousel-item img {
+            height: 500px; /* Altura padrão para as imagens do carrossel */
+            object-fit: cover; /* Cobre a área da imagem */
+        }
+        /* Estilo das colunas de números */
+        .numbers {
+            display: flex; /* Usar flexbox para as colunas */
+            justify-content: space-around; /* Espaçar as colunas uniformemente */
+            margin: 20px 0; /* Espaçamento acima e abaixo */
+        }
+        .number {
+            text-align: center; /* Centraliza o texto em cada coluna */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="img/img.1.png" alt="La Brasa Logo" width="50" height="50"> <!-- Logo inserida aqui -->
+            La Brasa Hamburguer
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Principal</a></li>
+                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="cupons.html">Cupons</a></li> <!-- Adicionado -->
+                <li class="nav-item"><a class="nav-link" href="unidades.html">Unidades</a></li> <!-- Adicionado -->
+                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <div class="hero text-center my-5">
+        <h1>Bem-vindo à La Brasa Hamburguer</h1>
+        <p>Os melhores sabores e receitas feitos com paixão</p>
+        <button class="btn btn-warning">Faça seu pedido agora</button>
+    </div>
+
+    <!-- Seção de Números -->
+    <div class="numbers">
+        <div class="number">
+            <h2>+120</h2>
+            <p>Franquias em todo o Brasil</p>
+        </div>
+        <div class="number">
+            <h2>+40</h2>
+            <p>Opções irresistíveis</p>
+        </div>
+        <div class="number">
+            <h2>+800Mil</h2>
+            <p>Hambúrgueres em 2021</p>
+        </div>
+    </div>
+
+    <!-- Seção do Carrossel -->
+    <div class="container my-5">
+        <h2 class="text-center">VARIEDADES</h2>
+        <p class="text-center">Explosão de Sabor</p>
+        <p class="text-center">Conheça todos os nossos pratos deliciosos</p>
+        
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/img.2.png" class="d-block w-100" alt="Hambúrguer 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img.3.jpg" class="d-block w-100" alt="Hambúrguer 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img....5.jpg" class="d-block w-100" alt="Hambúrguer 3">
+                </div>img
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+     <!-- Seção de Informações -->
+     <div class="info-section text-center my-5">
+        <img src="img/img.labrasa.webp" alt="Logo La Brasa" class="my-4"> <!-- Logo La Brasa -->
+        
+        <div class="info-column">
+            <div>
+                <div>
+                    <h5>Institucional</h5>
+                    <p><a href="index.html" class="text-warning">Início</a></p>
+                    <p><a href="cupons.html" class="text-warning">Cupons</a></p> <!-- Adicionado -->
+                    <p><a href="cardapio.html" class="text-warning">Cardápio</a></p>
+                    <p><a href="unidades.html" class="text-warning">Unidades</a></p> <!-- Adicionado -->
+                    <p><a href="contato.html" class="text-warning">Contato</a></p>
+                </div>
+            <div>
+                <h5>Entre em Contato</h5>
+                <p>Escritório Central</p>
+                <p>São José do Rio Preto, São Paulo - Brasil</p>
+                <p>(17) 99271-9357</p>
+                <p>contato@labrasaburger.com.br</p>
+            </div>
+            <div>
+                <h5>Redes Sociais</h5>
+                <p>#LABRASABURGER</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="text-center my-4">
+        <p>&copy; 2024 La Brasa Hamburguer. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

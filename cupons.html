@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupons - La Brasa Hamburguer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+        }
+        .coupon-card {
+            background-color: #ffbf00; /* Fundo amarelo para os cupons */
+            color: #000; /* Texto preto para contraste */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="img/img.1.png" alt="Logo" width="60" height="50">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Principal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção de Cupons -->
+    <main class="container mt-5">
+        <h2 class="text-center mb-4">Cupons de Desconto</h2>
+        
+        <div class="coupon-card">
+            <h5>CUPOM: BURGER10</h5>
+            <p>Desconto de 10% em qualquer hambúrguer!</p>
+            <button class="btn btn-danger">Usar Cupom</button>
+        </div>
+
+        <div class="coupon-card">
+            <h5>CUPOM: FRETEGRATIS</h5>
+            <p>Frete grátis em pedidos acima de R$ 50!</p>
+            <button class="btn btn-danger">Usar Cupom</button>
+        </div>
+
+        <div class="coupon-card">
+            <h5>CUPOM: COMBO20</h5>
+            <p>20% de desconto em combos familiares!</p>
+            <button class="btn btn-danger">Usar Cupom</button>
+        </div>
+
+        <div class="coupon-card">
+            <h5>CUPOM: VEGETAL15</h5>
+            <p>15% de desconto em hambúrgueres vegetarianos!</p>
+            <button class="btn btn-danger">Usar Cupom</button>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-center text-danger py-3 mt-5">
+        <p>&copy; 2024 La Brasa Hamburguer</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
